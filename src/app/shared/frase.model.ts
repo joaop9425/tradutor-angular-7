@@ -1,4 +1,9 @@
 export class Frase {
-  constructor(public fraseEng: string[], public frasePtBr: string[]) {
+  public fraseEng: string[];
+  public frasePtBr: string[];
+
+  constructor(fraseEng, frasePtBr) {
+    this.fraseEng = fraseEng;
+    this.frasePtBr = frasePtBr;
   }
 }

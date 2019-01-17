@@ -1,8 +1,6 @@
 import { Frase } from '../shared/frase.model';
 
-export const FRASES: Frase[] = [
-  { fraseEng: 'I like to learn' , frasePtBr: 'Eu gosto de aprender' },
-  { fraseEng: 'I watch tv' , frasePtBr: 'Eu assisto tv' },
-  { fraseEng: 'How are you?' , frasePtBr: 'Como vai você' },
-  { fraseEng: 'I eat bread' , frasePtBr: 'Eu como pão' }
-];
+export const FRASE1: Frase = new Frase('I like to learn', 'Eu gosto de aprender');
+export const FRASE2: Frase = new Frase('I watch tv', 'Eu assisto tv');
+export const FRASE3: Frase = new Frase('How are you?', 'Como vai você?');
+export const FRASE4: Frase = new Frase('I eat bread', 'Eu como pão');
